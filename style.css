@@ -1,4 +1,47 @@
-body{
-    font-family: arial;
-    font-size: 18px;  
+body {
+    font-family: 'Heebo', sans-serif;
+    caret-color: antiquewhite;
+    background-color: antiquewhite
 }
+
+h1 {
+    color: (153, 167, 51);
+    font-weight: 400;
+}
+
+p {
+    font-weight: 700;
+}
+
+img {
+    width: 90%;
+    height: 400px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.BackgroundColor {
+    background-color: antiquewhite
+}
+
+ul {
+    overflow: hidden;
+    background-color: #994d33;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
