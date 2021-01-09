@@ -9,39 +9,30 @@ h1 {
     font-weight: 400;
 }
 
-p {
-    font-weight: 700;
-}
 
 img {
-    width: 90%;
-    height: 400px;
-    padding-left: 5%;
-    padding-right: 5%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .BackgroundColor {
     background-color: antiquewhite
 }
 
-ul {
-    overflow: hidden;
-    background-color: #994d33;
+
+.container{
+    max-width: 800px;
 }
 
-li {
-    float: right;
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-li a {
+.aligncenter {
+    max-width: 50%;
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    margin: auto;
 }
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
