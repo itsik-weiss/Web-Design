@@ -1,38 +1,60 @@
 body {
-    font-family: 'Heebo', sans-serif;
-    caret-color: antiquewhite;
-    background-color: antiquewhite
+    font-family: 'Assistant', sans-serif;
 }
 
-h1 {
-    color: (153, 167, 51);
+h1,h2, h3, h4 {
+    font-family: 'Secular One', sans-serif;
     font-weight: 400;
 }
 
+.container {
+    max-width: 900px;
+    margin: auto;
+}
 
-img {
-    max-width: 100%;
+.contact {
+  background: #e0d9d0;
+  padding: 40px;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.abut {
+    background: url(kafit6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+
+}
+
+.grid-rows {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 32px;
+    padding: 40px;
+    text-align: center;
+    background-color: #788181;
+    
+}
+
+
+.grid-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    
+}
+
+img{
+    display:block;
     width: auto;
     height: auto;
+    max-width: 100%;
 }
-
-.BackgroundColor {
-    background-color: antiquewhite
-}
-
-
-.container{
-    max-width: 800px;
-}
-
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.aligncenter {
-    max-width: 50%;
-    display: block;
-    margin: auto;
+.logo {
+    
 }
