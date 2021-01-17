@@ -2,7 +2,10 @@ body {
     font-family: 'Assistant', sans-serif;
 }
 
-h1,h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
 }
@@ -13,10 +16,11 @@ h1,h2, h3, h4 {
 }
 
 .contact {
-  background: #e0d9d0;
-  padding: 40px;
-  font-size: 24px;
-  text-align: center;
+    background: #e0d9d0;
+    padding: 40px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 
@@ -38,7 +42,7 @@ h1,h2, h3, h4 {
     padding: 40px;
     text-align: center;
     background-color: #788181;
-    
+
 }
 
 
@@ -46,15 +50,19 @@ h1,h2, h3, h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 32px;
-    
+
 }
 
-img{
-    display:block;
+img {
+    display: block;
     width: auto;
     height: auto;
     max-width: 100%;
 }
+
 .logo {
-    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: auto;
 }
