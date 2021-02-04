@@ -33,6 +33,7 @@ h4 {
     color: #fff;
     padding: 80px;
     text-align: center;
+    font-size: 20px;
 
 }
 
@@ -51,7 +52,7 @@ h4 {
 }
 
 .grid-col div {
-    transition: 3s;
+    transition: .3s;
 }
 
 .grid-col div:hover {
@@ -81,5 +82,8 @@ img {
     padding: 20px 40px;
     display: inline-block;
     font-size: 18px;
+}
+.map{
+    max-width: 250px;
 }
 
